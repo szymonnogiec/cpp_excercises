@@ -1,1 +1,1 @@
-# loggi
+# cpp exercises
