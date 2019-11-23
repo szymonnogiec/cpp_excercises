@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.8)
+project(loggi)
+
+include_directories(include)
+add_subdirectory(src)
+option(PACKAGE_TESTS "Build the tests" ON)
+if(PACKAGE_TESTS)
+    enable_testing()
+    add_subdirectory(tests)
+endif()
