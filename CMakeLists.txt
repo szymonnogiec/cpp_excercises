@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(loggi)
+project(cpp_exercises)
 
 include_directories(include)
 add_subdirectory(src)
